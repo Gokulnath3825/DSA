@@ -12,7 +12,7 @@ class TreeNode {
 
 public class SmallestElement {
 
-    List<Integer> ans = new ArrayList<>();
+    List<Integer> ans=new ArrayList<>();
 
     public int kthSmallest(TreeNode root, int k) {
         inorder(root);
