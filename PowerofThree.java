@@ -14,9 +14,12 @@ public class  PowerofThree {
     }
     
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
+
         System.out.println(isPower(45));
+        
         System.out.println(isPower(3));
+        
         System.out.println(isPower(27));
     }
 }
