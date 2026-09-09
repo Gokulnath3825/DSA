@@ -1,20 +1,13 @@
 package stack;
-
 import java.util.Stack;
-
 public class ReversePolishNotation {
-
     public static int token(String[] sd){
 
         Stack<Integer> stack = new Stack<>();
-
         for(String s : sd){
-
             if(s.equals("+") || s.equals("-") || s.equals("*") || s.equals("/")){
-
                 int b = stack.pop();
                 int a = stack.pop();
-
                 switch(s){
                     case "+":
                         stack.push(a+b);
@@ -30,8 +23,8 @@ public class ReversePolishNotation {
                         break;
                 }
             }
-            else{
-                stack.push(Integer.parseInt(s));
+            eelse
+ stack.push(Integer.parseInt(s));
             }
         }
 
