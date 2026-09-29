@@ -1,20 +1,28 @@
 package Tree;
+
 class TreeNode{
+
     int val;
 
     TreeNode left, right;
 
     TreeNode(int val) {
+
         this.val = val;
 
     }
 }
 public class binarySearch{
-    public static boolean isValidBST(TreeNode root){
+
+    public static boolean
+
+ isValidBST(TreeNode root){
 
         return valid(root, Long.MIN_VALUE, Long.MAX_VALUE);
 
+
     }
+
 
     private static boolean valid(TreeNode node, long min, long max){
         if(node == null) return true;
